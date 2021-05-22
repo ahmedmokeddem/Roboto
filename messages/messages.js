@@ -39,9 +39,8 @@ const handleMessages = async (app) => {
       return;
     } else {
       await say(
-        `Hi I'm roboto a chat bot here is what i can do
-        • tell joke\n\n• give advices \n\n• schedule a weekly check (this for admin only)\n\n• give you some motivation articles when you didn't feel good and a looot more`
-      );
+                `Hi I'm Roboto a chat bot, here is what i can do:\n• Tell joke\n\n• Give advices \n\n• Schedule a weekly check (this for admin only)\n\n• Give you some motivation articles when you didn't feel good and a looot more`
+            );
     }
     return;
   });
